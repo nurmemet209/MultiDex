@@ -1,7 +1,7 @@
 #Delvik环境下MultiDex实现原理与源码分析
 
 * 提取主Dex以外的所有其他Dex文件到/data/data/应用包名称/code-cache/secondary-dexs目录下
-* PathClassLoader的 pathList对象的makeDexElements方法
+* 调用PathClassLoader的 pathList对象的makeDexElements方法
 * PathClassLoader的 pathList对象的dexElements数组进行扩容并且把第一步获取的Dex文件列表保存进去
 ```java
   public static void install(Context context) {
