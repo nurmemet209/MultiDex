@@ -1,8 +1,6 @@
-# MultiDex
-Delvik环境下MultiDex实现原理与源码分析
+#Delvik环境下MultiDex实现原理与源码分析
 
 
-# MultiDex原理
 
 
 ```java
